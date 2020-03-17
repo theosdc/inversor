@@ -1,4 +1,4 @@
-/* Data de submissao:
+/* Data de submissao: 17/03/2020
  * Nome: Theo Soares de Camargo
  * RA: 206191
  */
@@ -43,11 +43,9 @@ int main() {
       buffer_aux[i] = '\0';
   }
 
-
-  
   int k;			/* Indica a posicao livre no buffer aux */
   k = 0;
-  
+
   for(int i=0; buffer[i] != '\0'; i++) { /* Para cada posicao do buffer */
 
       estado = atualiza_estado(buffer, i); /* Atualiza o estado */
@@ -86,7 +84,7 @@ int main() {
   }
 
   printf("%s", buffer_aux);
-  
+
   return 0;
 }
 
